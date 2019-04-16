@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  width: 90%;
+  height: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  padding: 2px 13px;
+}
+
+/* Simple Responsive Framework. */
+
+.row {
+  width: 100%;
+  margin: 30px;
+  padding-left: 40px;
+}
+
+/********** Base styles **********/
+
+#p1 {
+  width: 119px;
+  height: 32px;
+  background-color: #c69f9f;
+  color: black;
+  border: 2px solid black;
+  position: relative;
+  text-align: right;
+  font-weight: bold;
+  padding: 5px 23px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+#p2 {
+  width: 119px;
+  height: 32px;
+  background-color: #a50000;
+  color: white;
+  border: 2px solid black;
+  position: relative;
+  text-align: right;
+  font-weight: bold;
+  padding: 5px 23px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+#p3 {
+  width: 119px;
+  height: 32px;
+  background-color: #e8c900;
+  color: black;
+  border: 2px solid black;
+  position: relative;
+  text-align: right;
+  font-weight: bold;
+  padding: 5px 23px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    background-color: #848484;
+    margin: 35px;
+    border: 2px solid black;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  #p1 {
+    width: 119px;
+    height: 32px;
+    background-color: #c69f9f;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px 23px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #p2 {
+    width: 119px;
+    height: 32px;
+    background-color: #a50000;
+    color: white;
+    border: 2px solid black;
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px 23px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #p3 {
+    width: 119px;
+    height: 32px;
+    background-color: #e8c900;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px 23px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-8 {
+    float: left;
+    background-color: #686868;
+    margin: 0px 0% 2% 40px;
+  }
+  .col-md-6 {
+    width: 35%
+  }
+  .col-md-8 {
+    width: 685px;
+  }
+  #p1 {
+    width: 119px;
+    height: 32px;
+    background-color: #c69f9f;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px 23px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #p2 {
+    width: 119px;
+    height: 32px;
+    background-color: #a50000;
+    color: white;
+    border: 2px solid black;
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px 23px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #p3 {
+    width: 119px;
+    height: 32px;
+    background-color: #e8c900;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px 23px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+}
+
+/**Aqui é celular***/
+@media (max-width: 767px) {
+  .col-md-6 {
+    float: left;
+    background-color: #686868;
+    margin: 22px 35px
+
+  }
+  .col-md-6 {
+    width: 70%;
+  }
+
+  #p1 {
+    width: 119px;
+    height: 32px;
+    background-color: #c69f9f;
+    color: black;
+    border: 2px solid black;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px 23px;
+    margin-left: 367px;
+
+
+  }
+  #p2 {
+    width: 119px;
+    height: 32px;
+    background-color: #a50000;
+    color: white;
+    border: 2px solid black;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px 23px;
+    margin-left: 367px;
+
+  }
+  #p3 {
+    width: 119px;
+    height: 32px;
+    background-color: #e8c900;
+    color: black;
+    border: 2px solid black;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px 23px;
+    margin-left: 367px;
+
+  }
+}
+
+
+body {
+  background-color: white;
+}
